@@ -102,6 +102,7 @@ function App() {
 
   useEffect(() => {
     resetGame();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
