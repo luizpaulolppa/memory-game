@@ -82,7 +82,6 @@ function App() {
 
   useEffect(() => {
     const selectedItems = items.filter(item => item.selected)
-    console.log(selectedItems)
     if (selectedItems.length === 2) {
       setTimeout(() => {
         const [item1, item2] = selectedItems
